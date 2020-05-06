@@ -6,7 +6,7 @@
 #       Tunned by  : Damien DAGORN
 #       On         : 05/05/2020
 #
-#				Monitored product: WebMethods API Gateway
+#		Monitored product: WebMethods API Gateway
 #       Called by Centreon to check API Gateway EventDataStore status
 #
 #########################################################################
@@ -28,10 +28,10 @@ if [ "$HEALTH" == "green" ]; then
  exit 0
 fi
 
-# NORMAL
+# WARNING
 if [ "$HEALTH" == "yellow" ]; then
- echo "OK - STATUS DE EVENTDATASTORE (ElasticSearch): ${HEALTH^^}"
- exit 0
+ echo "WARNING - STATUS DE EVENTDATASTORE (ElasticSearch): ${HEALTH^^}"
+ exit 1
 fi
 
 # CRITICAL

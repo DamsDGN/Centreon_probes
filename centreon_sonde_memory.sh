@@ -5,7 +5,7 @@
 #       Created by : Damien DAGORN
 #       On         :  23/12/2019
 #
-#				Monitored product: WebMethods Integration Server
+#	Monitored product: WebMethods Integration Server
 #       Called by Centreon to check threads status
 #
 #########################################################################

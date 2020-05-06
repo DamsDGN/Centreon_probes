@@ -6,7 +6,7 @@
 #       Tunned by  : Damien DAGORN
 #       On         : 20/04/2020
 #
-#				Monitored product: Redis
+#		Monitored product: Redis
 #       Called by Centreon to check Redis rss memory status
 #
 #########################################################################

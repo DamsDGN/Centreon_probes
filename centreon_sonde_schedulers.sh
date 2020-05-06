@@ -6,7 +6,7 @@
 #       Tunned by  : Damien DAGORN
 #       On         : 18/03/2020
 #
-#				Monitored product: WebMethods Integration Server
+#		Monitored product: WebMethods Integration Server
 #       Called by Centreon to check schedulers status
 #
 #########################################################################
